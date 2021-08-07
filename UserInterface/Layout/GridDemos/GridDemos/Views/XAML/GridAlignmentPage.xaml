@@ -70,7 +70,7 @@
                VerticalOptions="End" />
         <BoxView Grid.Row="2"
                  Grid.Column="2"
-                 Color="BlueViolet" />
+                 Color="Green" />
         <Label Grid.Row="2"
                Grid.Column="2"
                Text="Lower right"
