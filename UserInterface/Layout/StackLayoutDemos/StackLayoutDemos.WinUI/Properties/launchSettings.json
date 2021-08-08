@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "StackLayoutDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
