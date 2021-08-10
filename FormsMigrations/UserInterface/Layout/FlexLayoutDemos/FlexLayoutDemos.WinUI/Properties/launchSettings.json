@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "FlexLayoutDemos.WinUI": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
