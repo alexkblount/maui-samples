@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ButtonDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
