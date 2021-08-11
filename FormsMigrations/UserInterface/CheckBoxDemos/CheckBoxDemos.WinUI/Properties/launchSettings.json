@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CheckBoxDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
