@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AbsoluteLayoutDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
