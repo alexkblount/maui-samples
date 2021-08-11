@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CarouselViewDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

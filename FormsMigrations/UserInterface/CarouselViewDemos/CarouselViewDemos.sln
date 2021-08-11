@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarouselViewDemos", "CarouselViewDemos\CarouselViewDemos.csproj", "{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarouselViewDemos.WinUI", "CarouselViewDemos.WinUI\CarouselViewDemos.WinUI.csproj", "{ADBAA267-6ECB-47A0-9253-200532B30EF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E60A1A2-63E2-45AD-9A3A-953CC43CCA7C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBAA267-6ECB-47A0-9253-200532B30EF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
