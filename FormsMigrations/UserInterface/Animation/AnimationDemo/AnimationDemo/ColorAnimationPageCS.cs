@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace AnimationDemo
 {
@@ -16,7 +17,7 @@ namespace AnimationDemo
 			Title = "Color Animations";
 			IconImageSource = "csharp.png";
 
-			boxView = new BoxView { Color = Color.Blue, HeightRequest = 100, HorizontalOptions = LayoutOptions.FillAndExpand };
+			boxView = new BoxView { Color = Colors.Blue, HeightRequest = 100, HorizontalOptions = LayoutOptions.FillAndExpand };
 			label = new Label
 			{
 				Text = "Loreom ipsum dolar sit amet",
@@ -77,11 +78,11 @@ namespace AnimationDemo
 			SetIsEnabledCancelButtonState(true);
 
 			await Task.WhenAll(
-				label.ColorTo(Color.Red, Color.Blue, c => label.TextColor = c, 5000),
-				label.ColorTo(Color.Blue, Color.Red, c => label.BackgroundColor = c, 5000));
+				label.ColorTo(Colors.Red, Colors.Blue, c => label.TextColor = c, 5000),
+				label.ColorTo(Colors.Blue, Colors.Red, c => label.BackgroundColor = c, 5000));
 
-			label.BackgroundColor = Color.Default;
-			label.TextColor = Color.Default;
+			label.BackgroundColor = Colors.Transparent;
+			label.TextColor = Colors.Black;
 		}
 
 		async void OnAnimatePageBackgroundButtonClicked(object sender, EventArgs e)
@@ -89,14 +90,14 @@ namespace AnimationDemo
 			SetIsEnabledCancelButtonState(true);
 
 			await this.ColorTo(Color.FromRgb(0, 0, 0), Color.FromRgb(255, 255, 255), c => BackgroundColor = c, 5000);
-			BackgroundColor = Color.Default;
+			BackgroundColor = Colors.Transparent;
 		}
 
 		async void OnAnimateBoxViewButtonClicked(object sender, EventArgs e)
 		{
 			SetIsEnabledCancelButtonState(true);
 
-			await boxView.ColorTo(Color.Blue, Color.Red, c => boxView.Color = c, 4000);
+			await boxView.ColorTo(Colors.Blue, Colors.Red, c => boxView.Color = c, 4000);
 		}
 
 		void OnCancelAnimationButtonClicked(object sender, EventArgs e)
