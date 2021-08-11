@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AnimationDemo.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

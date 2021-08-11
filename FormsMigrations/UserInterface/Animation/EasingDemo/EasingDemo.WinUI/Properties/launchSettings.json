@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EasingDemo.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
