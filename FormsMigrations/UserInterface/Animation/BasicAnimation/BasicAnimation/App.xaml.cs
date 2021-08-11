@@ -11,7 +11,7 @@ namespace BasicAnimation
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new HomePage();
 		}
 	}
 }
