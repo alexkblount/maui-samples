@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MonkeyAppPicker.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
