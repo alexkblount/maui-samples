@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckBoxDemos", "CheckBoxDemos\CheckBoxDemos.csproj", "{9252B742-8384-47DE-94EA-508BCEB7101F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckBoxDemos.WinUI", "CheckBoxDemos.WinUI\CheckBoxDemos.WinUI.csproj", "{BC699B63-15E5-4248-8326-8D049B0C1A51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9252B742-8384-47DE-94EA-508BCEB7101F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC699B63-15E5-4248-8326-8D049B0C1A51}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal
