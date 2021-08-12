@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FlexLayoutDemos"
+             xmlns:layouts="clr-namespace:Microsoft.Maui.Layouts;assembly=Microsoft.Maui"
              x:Class="FlexLayoutDemos.ExperimentPage"
              Title="Experiment">
     <Grid Margin="10, 0">
@@ -55,40 +56,40 @@
 
             <Label Text="Direction:"
                    Grid.Row="1" Grid.Column="0" />
-
-            <!-- TODO fix  -->
-            <!-- <local:EnumPicker EnumType="{x:Type FlexDirection}"
+  
+            <local:EnumPicker EnumType="{x:Type layouts:FlexDirection}"
                               SelectedItem="{Binding Direction}"
                               Grid.Row="1" Grid.Column="1" /> 
 
+          
             <Label Text="Wrap:"
                    Grid.Row="2" Grid.Column="0" />
 
-            <local:EnumPicker EnumType="{x:Type FlexWrap}"
+            <local:EnumPicker EnumType="{x:Type layouts:FlexWrap}"
                               SelectedItem="{Binding Wrap}"
                               Grid.Row="2" Grid.Column="1" />
 
             <Label Text="JustifyContent:"
                    Grid.Row="3" Grid.Column="0" />
 
-            <local:EnumPicker EnumType="{x:Type FlexJustify}"
+            <local:EnumPicker EnumType="{x:Type layouts:FlexJustify}"
                               SelectedItem="{Binding JustifyContent}"
                               Grid.Row="3" Grid.Column="1" />
 
             <Label Text="AlignItems:"
                    Grid.Row="4" Grid.Column="0" />
 
-            <local:EnumPicker EnumType="{x:Type FlexAlignItems}"
+            <local:EnumPicker EnumType="{x:Type layouts:FlexAlignItems}"
                               SelectedItem="{Binding AlignItems}"
                               Grid.Row="4" Grid.Column="1" />
 
             <Label Text="AlignContent:"
                    Grid.Row="5" Grid.Column="0" />
 
-            <local:EnumPicker EnumType="{x:Type FlexAlignContent}"
+            <local:EnumPicker EnumType="{x:Type layouts:FlexAlignContent}"
                               SelectedItem="{Binding AlignContent}"
                               Grid.Row="5" Grid.Column="1" />
-            -->
+
         </Grid>
 
         <!-- FlexLayout -->
