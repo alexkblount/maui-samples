@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ToolbarItemDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
