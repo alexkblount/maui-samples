@@ -2,6 +2,7 @@
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
 using Application = Microsoft.Maui.Controls.Application;
+using LayoutOptionsDemo;
 
 namespace LayoutOptions
 {
@@ -11,7 +12,7 @@ namespace LayoutOptions
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new LayoutOptionsPage();
 		}
 	}
 }
