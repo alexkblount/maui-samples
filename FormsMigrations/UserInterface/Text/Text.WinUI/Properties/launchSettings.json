@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Text.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
