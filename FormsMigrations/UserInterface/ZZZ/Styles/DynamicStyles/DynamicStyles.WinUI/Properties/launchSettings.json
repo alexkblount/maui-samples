@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DynamicStyles.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

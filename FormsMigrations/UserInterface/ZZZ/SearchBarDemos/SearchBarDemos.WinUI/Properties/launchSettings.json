@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SearchBarDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
