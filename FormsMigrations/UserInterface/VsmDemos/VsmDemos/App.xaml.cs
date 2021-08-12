@@ -11,7 +11,7 @@ namespace VsmDemos
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new HomePage());
 		}
 	}
 }
