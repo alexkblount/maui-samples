@@ -5,8 +5,7 @@
              x:Class="FlexLayoutDemos.CssCatalogItemsPage"
              Title="CSS Catalog Items">
     <ContentPage.Resources>
-        <!-- TODO fix -->
-        <!-- <StyleSheet Source="CatalogItemsStyles.css" /> -->
+        <StyleSheet Source="CatalogItemsStyles.css" />
 
         <Style TargetType="Frame">
             <Setter Property="BorderColor" Value="Blue" />
