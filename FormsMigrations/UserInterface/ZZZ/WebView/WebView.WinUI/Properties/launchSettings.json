@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "WebView.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
