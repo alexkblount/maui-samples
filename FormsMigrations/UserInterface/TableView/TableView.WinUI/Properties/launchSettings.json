@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TableView.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
