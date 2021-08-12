@@ -1,6 +1,7 @@
 ﻿using SearchBarDemos.Services;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace SearchBarDemos
 {
@@ -18,8 +19,8 @@ namespace SearchBarDemos
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.CenterAndExpand,
                 Placeholder = "Search fruits...",
-                CancelButtonColor = Color.Orange,
-                PlaceholderColor = Color.Orange,
+                CancelButtonColor = Colors.Orange,
+                PlaceholderColor = Colors.Orange,
                 TextTransform = TextTransform.Lowercase
             };
 
