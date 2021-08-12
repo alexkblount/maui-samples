@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Input;
-using Xamarin.Essentials;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Xaminals.Views;
+using Microsoft.Maui.Essentials;
 
 namespace Xaminals
 {

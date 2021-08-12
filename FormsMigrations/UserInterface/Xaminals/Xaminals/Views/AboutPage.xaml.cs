@@ -1,5 +1,5 @@
 ﻿using System.Windows.Input;
-using Xamarin.Essentials;
+using Microsoft.Maui.Essentials;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
