@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VsmDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
