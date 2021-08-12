@@ -6,7 +6,7 @@ namespace WebViewSample
 {
 	public class InAppBrowserCode : ContentPage
 	{
-		WebView webView;
+		Microsoft.Maui.Controls.WebView webView;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="WebViewSample.InAppBrowserXaml"/> class.
@@ -28,7 +28,7 @@ namespace WebViewSample
 			forwardButton.Clicked += forwardButtonClicked;
 
 			// WebView needs to be given a height and width request within layouts to render
-			webView = new WebView () { WidthRequest = 1000, HeightRequest = 1000, Source = URL };
+			webView = new Microsoft.Maui.Controls.WebView () { WidthRequest = 1000, HeightRequest = 1000, Source = URL };
 
 			controlBar.Children.Add(backButton);
             controlBar.Children.Add(reloadButton);

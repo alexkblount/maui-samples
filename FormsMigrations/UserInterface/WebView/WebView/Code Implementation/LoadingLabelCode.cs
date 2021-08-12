@@ -8,7 +8,7 @@ namespace WebViewSample
 	public class LoadingLabelCode : ContentPage
 	{
 		//these need to be defined at class level for use in methods.
-		WebView webView;
+		Microsoft.Maui.Controls.WebView webView;
 		Label labelLoading;
 
 		public LoadingLabelCode ()
@@ -20,7 +20,7 @@ namespace WebViewSample
 			//Loading label should not render by default.
 			labelLoading = new Label () { Text = "Loading...", IsVisible = false};
 
-			webView = new WebView () { HeightRequest = 1000, WidthRequest = 1000, Source = "https://dotnet.microsoft.com/apps/xamarin" };
+			webView = new Microsoft.Maui.Controls.WebView () { HeightRequest = 1000, WidthRequest = 1000, Source = "https://dotnet.microsoft.com/apps/xamarin" };
 
 			webView.Navigated += webviewNavigated;
 			webView.Navigating += webviewNavigating;
