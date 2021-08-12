@@ -2,6 +2,7 @@
 
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace TextSample
 {
@@ -28,9 +29,9 @@ namespace TextSample
 				FontAttributes = FontAttributes.Bold,
 				VerticalOptions = LayoutOptions.Center
 			}, 0, 1);
-			grid.Children.Add (new Entry (), 1, 0);
-			grid.Children.Add (new Entry { IsPassword = true }, 1, 1);
-			grid.Children.Add (new Button { Text = "Log In", TextColor = Color.White, BackgroundColor = Color.Gray }, 1, 2);
+			grid.Children.Add (new Entry ());//, 1, 0);
+			grid.Children.Add (new Entry { IsPassword = true });//, 1, 1);
+			grid.Children.Add (new Button { Text = "Log In", TextColor = Colors.White, BackgroundColor = Colors.Gray });//, 1, 2);
 			var layout = new StackLayout{ Padding = new Thickness (10, 0) };
 			layout.Children.Add (new Label {
 				FontSize = Device.GetNamedSize (NamedSize.Large, typeof(Label)),
@@ -49,8 +50,8 @@ namespace TextSample
 			modernLayout.Children.Add (new Entry { IsPassword = true, Placeholder = "Password", HorizontalOptions = LayoutOptions.Fill });
 			modernLayout.Children.Add (new Button {
 				Text = "Log In",
-				TextColor = Color.White,
-				BackgroundColor = Color.Gray,
+				TextColor = Colors.White,
+				BackgroundColor = Colors.Gray,
 				HorizontalOptions = LayoutOptions.Fill
 			});
 			layout.Children.Add (new Frame { Content = modernLayout });
