@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FlexLayoutDemos"
              x:Class="FlexLayoutDemos.SimpleStackPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}"
              Title="Simple Stack">
     
     <FlexLayout Direction="Column"
@@ -13,7 +12,10 @@
         <Label Text="FlexLayout in Action"
                FontSize="Large" />
 
-        <!-- <Image Source="{local:ImageResource FlexLayoutDemos.Images.SeatedMonkey.jpg}" /> -->
+        <Image Source="seated_monkey.jpg" />
+        <!-- <Image Source="seated_monkey.jpg"
+               WidthRequest="300" 
+               HeightRequest="300" /> -->
 
         <Button Text="Do-Nothing Button" />
 

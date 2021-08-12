@@ -2,7 +2,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FlexLayoutDemos"
              x:Class="FlexLayoutDemos.HomePage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}"
              Title="FlexLayout Demos">
 
    <ContentPage.Resources>
@@ -18,11 +17,11 @@
                     Command="{Binding NavigateCommand}"
                     CommandParameter="{x:Type local:SimpleStackPage}" />
 
-            <!-- <Button Text="Photo Wrapping"
+            <Button Text="Photo Wrapping"
                     Command="{Binding NavigateCommand}"
                     CommandParameter="{x:Type local:PhotoWrappingPage}" />
 
-            <Button Text="Holy Grail Layout"
+             <Button Text="Holy Grail Layout"
                     Command="{Binding NavigateCommand}"
                     CommandParameter="{x:Type local:HolyGrailLayoutPage}" />
 
@@ -48,7 +47,7 @@
 
             <Button Text="CSS Catalog Items"
                     Command="{Binding NavigateCommand}"
-                    CommandParameter="{x:Type local:CssCatalogItemsPage}" /> -->
+                    CommandParameter="{x:Type local:CssCatalogItemsPage}" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

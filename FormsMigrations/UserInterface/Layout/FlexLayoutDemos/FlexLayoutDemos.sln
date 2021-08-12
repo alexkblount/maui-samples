@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31220.234
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexLayoutDemos", "FlexLayoutDemos\FlexLayoutDemos.csproj", "{E25F495B-7A8D-49EE-A0B5-91F8595BA916}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexLayoutDemos.WinUI", "FlexLayoutDemos.WinUI\FlexLayoutDemos.WinUI.csproj", "{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +17,6 @@ Global
 		{E25F495B-7A8D-49EE-A0B5-91F8595BA916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25F495B-7A8D-49EE-A0B5-91F8595BA916}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E25F495B-7A8D-49EE-A0B5-91F8595BA916}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F240FBC-6857-4FFA-BD84-F60AFB643DC0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
