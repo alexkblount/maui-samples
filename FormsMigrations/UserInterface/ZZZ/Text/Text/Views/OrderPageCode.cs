@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace TextSample
 {
@@ -20,22 +21,22 @@ namespace TextSample
 			grid.ColumnDefinitions.Add (new ColumnDefinition{ Width = new GridLength(90) });
 			grid.ColumnDefinitions.Add (new ColumnDefinition{ Width = new GridLength (1, GridUnitType.Star) });
 
-			grid.Children.Add (new Label { Text = "Purchaser's Name:" }, 0, 0);
-			grid.Children.Add (new Label { Text = "Billing Address:" }, 0, 1);
-			grid.Children.Add (new Label { Text = "Tip:", FontAttributes = FontAttributes.Bold }, 0, 2);
-			grid.Children.Add (new Label { Text = "Phone Number:" }, 0, 3);
-			grid.Children.Add (new Label { Text = "Comments:" }, 0, 4);
-			grid.Children.Add (new Entry { Placeholder = "Full Name on Card" }, 1, 0);
-			grid.Children.Add (new Editor (), 1, 1);
-			grid.Children.Add (new Entry{ Keyboard = Keyboard.Numeric }, 1, 2);
-			grid.Children.Add (new Entry { Keyboard = Keyboard.Telephone }, 1, 3);
-			grid.Children.Add (new Editor (), 1, 4);
+			grid.Children.Add (new Label { Text = "Purchaser's Name:" });//, 0, 0);
+			grid.Children.Add (new Label { Text = "Billing Address:" });//, 0, 1);
+			grid.Children.Add (new Label { Text = "Tip:", FontAttributes = FontAttributes.Bold });//, 0, 2);
+			grid.Children.Add (new Label { Text = "Phone Number:" });//, 0, 3);
+			grid.Children.Add (new Label { Text = "Comments:" });//, 0, 4);
+			grid.Children.Add (new Entry { Placeholder = "Full Name on Card" });//, 1, 0);
+			grid.Children.Add (new Editor ());//, 1, 1);
+			grid.Children.Add (new Entry{ Keyboard = Keyboard.Numeric });//, 1, 2);
+			grid.Children.Add (new Entry { Keyboard = Keyboard.Telephone });//, 1, 3);
+			grid.Children.Add (new Editor ());//, 1, 4);
 
 			var fstring = new FormattedString ();
-			fstring.Spans.Add (new Span { Text = "Wait! ", ForegroundColor = Color.Red });
+			fstring.Spans.Add (new Span { Text = "Wait! ", BackgroundColor = Colors.Red });
 			fstring.Spans.Add (new Span { Text = "Please double check that everything is right." });
-			grid.Children.Add (new Label { FormattedText = fstring }, 1, 5);
-			grid.Children.Add (new Button { TextColor = Color.White, BackgroundColor = Color.Gray, Text = "Save" }, 1, 6);
+			grid.Children.Add (new Label { FormattedText = fstring });//, 1, 5);
+			grid.Children.Add (new Button { TextColor = Colors.White, BackgroundColor = Colors.Gray, Text = "Save" });//, 1, 6);
 			Content = grid;
 		}
 	}

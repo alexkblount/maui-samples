@@ -33,7 +33,7 @@ Title="Order Page - XAML" >
 					<Label.FormattedText>
 						<FormattedString>
 							<FormattedString.Spans>
-								<Span Text="Wait! " ForegroundColor="Red" />
+								<Span Text="Wait! " BackgroundColor="Red" />
 								<Span Text="Please double check that everything is right." />
 							</FormattedString.Spans>
 						</FormattedString>

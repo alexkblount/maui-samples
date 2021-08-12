@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace TextSample
 {
@@ -41,7 +42,7 @@ namespace TextSample
             layout.Children.Add(lineHeightLabel);
 
             var formattedString = new FormattedString ();
-            formattedString.Spans.Add (new Span{ Text = "Red bold, ", ForegroundColor = Color.Red, FontAttributes = FontAttributes.Bold });
+            formattedString.Spans.Add (new Span{ Text = "Red bold, ", BackgroundColor = Colors.Red, FontAttributes = FontAttributes.Bold });
             var span = new Span { Text = "default, " };
             span.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(async () => await DisplayAlert("Tapped", "This is a tapped Span.", "OK")) });
             formattedString.Spans.Add(span);

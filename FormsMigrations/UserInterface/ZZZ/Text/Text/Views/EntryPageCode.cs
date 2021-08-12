@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace TextSample
 {
@@ -49,7 +50,7 @@ namespace TextSample
 			case 4:
 				styledEntry = new Entry {
 					BackgroundColor = Color.FromHex ("#2c3e50"),
-					TextColor = Color.White,
+					TextColor = Colors.White,
 					Text = "White on blue background"
 				};
 				break;
