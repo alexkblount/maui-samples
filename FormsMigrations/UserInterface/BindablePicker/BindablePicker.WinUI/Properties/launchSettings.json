@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BindablePicker.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

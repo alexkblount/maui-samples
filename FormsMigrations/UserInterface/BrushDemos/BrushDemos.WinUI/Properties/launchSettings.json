@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BrushDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
