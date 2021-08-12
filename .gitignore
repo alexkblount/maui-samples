@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Xamarin
 Resource.designer.cs
+
+# Mac folder custom attributes
+.DS_Store
