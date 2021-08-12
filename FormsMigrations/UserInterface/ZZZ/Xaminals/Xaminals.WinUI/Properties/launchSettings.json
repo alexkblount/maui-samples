@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Xaminals.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
