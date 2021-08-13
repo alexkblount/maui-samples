@@ -40,7 +40,7 @@ namespace ShadowPlatformSpecific.Droid
 		{
 			try
 			{
-				if (((Label)Element).OnThisPlatform().IsShadowed())
+				if (((Label)Element).On<Microsoft.Maui.Controls.PlatformConfiguration.Android>().IsShadowed())
 				{
 					float radius = 5;
 					float distanceX = 5;

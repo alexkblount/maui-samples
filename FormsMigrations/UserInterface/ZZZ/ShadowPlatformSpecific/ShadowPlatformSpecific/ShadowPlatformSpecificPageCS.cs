@@ -22,9 +22,9 @@ namespace ShadowPlatformSpecific
 				}
 			};
 
-			shadowLabel.On<iOS>().SetIsShadowed(true);
-			shadowLabel.On<Android>().SetIsShadowed(true);
-			shadowLabel.On<Windows>().SetIsShadowed(true);
+			shadowLabel.On<Microsoft.Maui.Controls.PlatformConfiguration.iOS>().SetIsShadowed(true);
+			shadowLabel.On<Microsoft.Maui.Controls.PlatformConfiguration.Android>().SetIsShadowed(true);
+			shadowLabel.On<Microsoft.Maui.Controls.PlatformConfiguration.Windows>().SetIsShadowed(true);
 		}
 	}
 }
