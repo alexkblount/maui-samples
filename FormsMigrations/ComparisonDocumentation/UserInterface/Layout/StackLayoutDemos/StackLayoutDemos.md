@@ -13,7 +13,7 @@ _Forms on the left, MAUI on the right_
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-home.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-home.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -27,7 +27,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-vertical.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-vertical.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -41,7 +41,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-horizontal.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-horizontal.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -55,7 +55,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-childspacing.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-childspacing.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -69,7 +69,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-combined.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-combined.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -83,7 +83,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-alignment.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-alignment.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
@@ -97,7 +97,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/Android/forms-stacklayoutdemos-expansion.png" alt="Forms Android GridDemo Home" width="400"/> | <img src="Maui/Android/maui-stacklayoutdemos-expansion.png" alt="Maui Android GridDemo Home" width="400"/>
 
 ### iOS
 
