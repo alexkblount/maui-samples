@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "ShapesDemos.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
