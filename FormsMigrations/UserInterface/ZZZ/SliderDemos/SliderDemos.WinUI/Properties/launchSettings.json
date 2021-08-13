@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SliderDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

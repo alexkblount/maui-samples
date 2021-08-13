@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MonkeyAppCSS.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
