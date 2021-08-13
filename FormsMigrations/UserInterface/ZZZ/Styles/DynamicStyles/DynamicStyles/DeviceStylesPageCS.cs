@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace Styles
 {
@@ -12,7 +13,7 @@ namespace Styles
 				Setters = {
 					new Setter {
 						Property = Label.TextColorProperty,
-						Value = Color.Accent
+						Value = Colors.Silver
 					}
 				}
 			};

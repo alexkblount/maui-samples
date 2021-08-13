@@ -2,6 +2,7 @@
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
 using Application = Microsoft.Maui.Controls.Application;
+using Styles;
 
 namespace DynamicStyles
 {
@@ -11,7 +12,7 @@ namespace DynamicStyles
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new HomePage());
 		}
 	}
 }

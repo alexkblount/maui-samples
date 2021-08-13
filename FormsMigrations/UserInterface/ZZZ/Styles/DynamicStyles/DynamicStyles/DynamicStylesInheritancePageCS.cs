@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace Styles
 {
@@ -32,7 +33,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = SearchBar.TextColorProperty,
-						Value = Color.Blue
+						Value = Colors.Blue
 					}
 				}
 			};
@@ -45,7 +46,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = SearchBar.TextColorProperty,
-						Value = Color.Green
+						Value = Colors.Green
 					}
 				}
 			};
@@ -55,11 +56,11 @@ namespace Styles
 				Setters = {
 					new Setter {
 						Property = VisualElement.BackgroundColorProperty,
-						Value = Color.Teal
+						Value = Colors.Teal
 					},
 					new Setter {
 						Property = SearchBar.CancelButtonColorProperty,
-						Value = Color.White
+						Value = Colors.White
 					}
 				}
 			};
@@ -73,7 +74,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Button.TextColorProperty,
-						Value = Color.Red
+						Value = Colors.Red
 					}
 				}
 			};
