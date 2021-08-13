@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "StepperDemos.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
