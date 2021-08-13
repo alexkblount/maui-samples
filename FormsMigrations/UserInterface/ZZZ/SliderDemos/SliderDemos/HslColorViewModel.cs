@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace SliderDemos
 {
@@ -15,14 +16,14 @@ namespace SliderDemos
         {
             set
             {
-                if (color.Hue != value)
+                if (color.GetHue() != value)
                 {
-                    Color = Color.FromHsla(value, color.Saturation, color.Luminosity);
+                    Color = Color.FromHsla(value, color.GetSaturation(), color.GetLuminosity());
                 }
             }
             get 
             {
-                return color.Hue;
+                return color.GetHue();
             }
         }
 
@@ -30,14 +31,14 @@ namespace SliderDemos
         {
             set
             {
-                if (color.Saturation != value)
+                if (color.GetSaturation() != value)
                 {
-                    Color = Color.FromHsla(color.Hue, value, color.Luminosity);
+                    Color = Color.FromHsla(color.GetHue(), value, color.GetLuminosity());
                 }
             }
             get
             {
-                return color.Saturation;
+                return color.GetSaturation();
             }
         }
 
@@ -45,14 +46,14 @@ namespace SliderDemos
         {
             set
             {
-                if (color.Luminosity != value)
+                if (color.GetLuminosity() != value)
                 {
-                    Color = Color.FromHsla(color.Hue, color.Saturation, value);
+                    Color = Color.FromHsla(color.GetHue(), color.GetSaturation(), value);
                 }
             }
             get
             {
-                return color.Luminosity;
+                return color.GetLuminosity();
             }
         }
 

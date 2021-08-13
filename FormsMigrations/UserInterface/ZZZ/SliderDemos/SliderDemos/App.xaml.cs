@@ -11,7 +11,7 @@ namespace SliderDemos
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new HomePage());
 		}
 	}
 }
