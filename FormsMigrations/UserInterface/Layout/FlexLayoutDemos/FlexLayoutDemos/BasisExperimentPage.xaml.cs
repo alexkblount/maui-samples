@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Layouts;
 
 namespace FlexLayoutDemos
 {
@@ -17,12 +18,12 @@ namespace FlexLayoutDemos
             if (args.Value)
             {
                 System.Diagnostics.Debug.WriteLine("Switch 2 On");
-                // TODO: fix | FlexLayout.SetBasis(label2, FlexBasis.Auto);
+                FlexLayout.SetBasis(label2, FlexBasis.Auto);
             }
             else
             {
                 System.Diagnostics.Debug.WriteLine("Switch 2 Off");
-                // TODO: fix | FlexLayout.SetBasis(label2, new FlexBasis((float)slider2.Value, relativeSwitch2.IsToggled));
+                FlexLayout.SetBasis(label2, new FlexBasis((float)slider2.Value, relativeSwitch2.IsToggled));
             }
         }
 
@@ -46,7 +47,7 @@ namespace FlexLayoutDemos
 
         void OnLabel2SliderValueChanged(object sender, ValueChangedEventArgs args)
         {
-            // TODO: fix | FlexLayout.SetBasis(label2, new FlexBasis((float)args.NewValue, relativeSwitch2.IsToggled));
+            FlexLayout.SetBasis(label2, new FlexBasis((float)args.NewValue, relativeSwitch2.IsToggled));
         }
 
         // Label 4 event handlers
@@ -55,12 +56,12 @@ namespace FlexLayoutDemos
             if (args.Value)
             {
                 System.Diagnostics.Debug.WriteLine("Switch 4 On");
-                // TODO: fix | FlexLayout.SetBasis(label4, FlexBasis.Auto);
+                FlexLayout.SetBasis(label4, FlexBasis.Auto);
             }
             else
             {
                 System.Diagnostics.Debug.WriteLine("Switch 4 Off");
-                // TODO: fix | FlexLayout.SetBasis(label4, new FlexBasis((float)slider4.Value, relativeSwitch4.IsToggled));
+                FlexLayout.SetBasis(label4, new FlexBasis((float)slider4.Value, relativeSwitch4.IsToggled));
             }
         }
 
@@ -84,7 +85,7 @@ namespace FlexLayoutDemos
 
         void OnLabel4SliderValueChanged(object sender, ValueChangedEventArgs args)
         {
-            // TODO: fix | FlexLayout.SetBasis(label4, new FlexBasis((float)args.NewValue, relativeSwitch4.IsToggled));
+            FlexLayout.SetBasis(label4, new FlexBasis((float)args.NewValue, relativeSwitch4.IsToggled));
         }
     }
 }

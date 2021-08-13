@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TimePicker.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
