@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "BasicStyles.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}

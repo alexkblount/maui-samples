@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "SwitchDemos.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
