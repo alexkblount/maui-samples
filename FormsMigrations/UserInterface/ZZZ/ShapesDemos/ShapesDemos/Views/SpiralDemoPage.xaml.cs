@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-using Xamarin.Forms.Shapes;
+using Microsoft.Maui.Controls.Shapes;
+using Microsoft.Maui.Graphics;
 
 namespace ShapesDemos
 {
