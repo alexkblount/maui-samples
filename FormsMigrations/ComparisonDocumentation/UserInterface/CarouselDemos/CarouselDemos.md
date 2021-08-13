@@ -17,7 +17,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/home.png" width="400"/> | <img src="Maui/iOS/home.png" width="400"/>
 
 
 ## Screen 2
@@ -33,7 +33,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-text.png" width="400"/> | <img src="Maui/iOS/horizontal-text.png" width="400"/>
 
 ## Screen 3
 
@@ -48,7 +48,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/vertical-text.png" width="400"/> | <img src="Maui/iOS/vertical-text.png" width="400"/>
 
 
 ## Screen 4
@@ -63,7 +63,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-datatemplate.png" width="400"/> | <img src="Maui/iOS/horizontal-datatemplate.png" width="400"/>
 
 ## Screen 5
 
@@ -77,4 +77,4 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-peek.png" width="400"/> | <img src="Maui/iOS/horizontal-peek.png" width="400"/>
