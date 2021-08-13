@@ -15,7 +15,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-<img src="Forms/iOs/menu.png" width="400"/> | <img src="Maui/iOS/menu.png" width="400"/>
+<img src="Forms/iOS/menu.png" width="400"/> | <img src="Maui/iOS/menu.png" width="400"/>
 
 
 ## Screen 2
