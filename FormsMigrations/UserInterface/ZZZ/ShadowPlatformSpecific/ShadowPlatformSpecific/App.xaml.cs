@@ -11,7 +11,7 @@ namespace ShadowPlatformSpecific
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new ShadowPlatformSpecificPage();
 		}
 	}
 }

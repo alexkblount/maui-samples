@@ -6,7 +6,9 @@ using System.ComponentModel;
 using UIKit;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-using Xamarin.Forms.Platform.iOS;
+using Microsoft.Maui.Controls.Platform;
+using Microsoft.Maui.Platform.iOS;
+using Microsoft.Maui.Controls.Compatibility.Platform.iOS;
 
 [assembly: ResolutionGroupName("MyCompany")]
 [assembly: ExportEffect(typeof(LabelShadowEffect), "LabelShadowEffect")]

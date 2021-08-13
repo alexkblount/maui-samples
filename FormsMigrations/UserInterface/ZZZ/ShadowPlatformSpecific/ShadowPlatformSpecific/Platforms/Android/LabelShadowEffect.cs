@@ -4,7 +4,12 @@ using System;
 using System.ComponentModel;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-using Xamarin.Forms.Platform.Android;
+using Microsoft.Maui.Controls.Platform;
+using Microsoft.Maui.Controls.Internals;
+using AndroidX.AppCompat.Widget;
+using Microsoft.Maui.Controls.Compatibility.Platform.Android.FastRenderers;
+using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
+using AColor = Android.Graphics.Color;
 
 [assembly: ResolutionGroupName("MyCompany")]
 [assembly: ExportEffect(typeof(LabelShadowEffect), "LabelShadowEffect")]
@@ -40,7 +45,7 @@ namespace ShadowPlatformSpecific.Droid
 					float radius = 5;
 					float distanceX = 5;
 					float distanceY = 5;
-					Android.Graphics.Color color = Android.Graphics.Color.Black;
+					AColor color = AColor.Black;
 					(Control as Android.Widget.TextView).SetShadowLayer(radius, distanceX, distanceY, color);
 				}
 			}

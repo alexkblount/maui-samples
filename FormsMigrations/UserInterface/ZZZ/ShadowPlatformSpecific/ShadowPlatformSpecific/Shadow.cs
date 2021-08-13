@@ -3,8 +3,8 @@
 	using System.Linq;
 	using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-	using Xamarin.Forms.PlatformConfiguration;
-	using FormsElement = Xamarin.Forms.Label;
+	using Microsoft.Maui.Controls.PlatformConfiguration;
+	using FormsElement = Microsoft.Maui.Controls.Label;
 
 	public static class Shadow
 	{
@@ -77,8 +77,8 @@ namespace MyCompany.Forms.PlatformConfiguration.Android
 	using System.Linq;
 	using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-	using Xamarin.Forms.PlatformConfiguration;
-	using FormsElement = Xamarin.Forms.Label;
+	using Microsoft.Maui.Controls.PlatformConfiguration;
+	using FormsElement = Microsoft.Maui.Controls.Label;
 
 	public static class Shadow
 	{
@@ -151,8 +151,8 @@ namespace MyCompany.Forms.PlatformConfiguration.UWP
 	using System.Linq;
 	using Microsoft.Maui;
 using Microsoft.Maui.Controls;
-	using Xamarin.Forms.PlatformConfiguration;
-	using FormsElement = Xamarin.Forms.Label;
+	using Microsoft.Maui.Controls.PlatformConfiguration;
+	using FormsElement = Microsoft.Maui.Controls.Label;
 
 	public static class Shadow
 	{
