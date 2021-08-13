@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace Styles
 {
@@ -178,7 +179,7 @@ namespace Styles
                     new Setter
                     {
                         Property = Label.TextColorProperty,
-                        Value = Color.DarkGray
+                        Value = Colors.DarkGray
                     },
                     new Setter
                     {

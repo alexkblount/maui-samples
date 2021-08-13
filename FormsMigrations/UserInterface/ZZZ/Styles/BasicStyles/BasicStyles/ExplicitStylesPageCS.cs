@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace Styles
 {
@@ -23,7 +24,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Label.TextColorProperty,
-						Value = Color.Red
+						Value = Colors.Red
 					}
 				}
 			};
@@ -44,7 +45,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Label.TextColorProperty,
-						Value = Color.Green
+						Value = Colors.Green
 					}
 				}
 			};
@@ -65,7 +66,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Label.TextColorProperty,
-						Value = Color.Blue
+						Value = Colors.Blue
 					}
 				}
 			};
@@ -78,7 +79,7 @@ namespace Styles
 					new Label { Text = "These labels", Style = labelRedStyle },
 					new Label { Text = "are demonstrating", Style = labelGreenStyle },
 					new Label { Text = "explicit styles,", Style = labelBlueStyle },
-					new Label { Text = "and an explicit style override", Style = labelBlueStyle, TextColor = Color.Teal }
+					new Label { Text = "and an explicit style override", Style = labelBlueStyle, TextColor = Colors.Teal }
 				}
 			};
 		}

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace Styles
 {
@@ -33,7 +34,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Label.TextColorProperty,
-						Value = Color.Teal
+						Value = Colors.Teal
 					}
 				}
 			};
@@ -43,7 +44,7 @@ namespace Styles
 				Setters = {
 					new Setter {
 						Property = Button.BorderColorProperty,
-						Value =	Color.Lime
+						Value =	Colors.Lime
 					},
 					new Setter {
 						Property = Button.CornerRadiusProperty,
@@ -59,7 +60,7 @@ namespace Styles
 					},
 					new Setter {
 						Property = Button.TextColorProperty,
-						Value = Color.Teal
+						Value = Colors.Teal
 					}
 				}
 			};
