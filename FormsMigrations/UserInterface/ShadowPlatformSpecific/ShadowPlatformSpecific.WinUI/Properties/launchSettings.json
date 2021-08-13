@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShadowPlatformSpecific.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
