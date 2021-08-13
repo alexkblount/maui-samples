@@ -11,7 +11,7 @@ namespace StepperDemos
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NavigationPage(new StepperDemo.MainPage());
 		}
 	}
 }
