@@ -1,5 +1,6 @@
 ﻿using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace SwitchDemos
 {
@@ -21,8 +22,8 @@ namespace SwitchDemos
             Switch switchControl = new Switch
             {
                 IsToggled = false,
-                OnColor = Color.Orange,
-                ThumbColor = Color.Green,
+                OnColor = Colors.Orange,
+                ThumbColor = Colors.Green,
                 HorizontalOptions = LayoutOptions.CenterAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
