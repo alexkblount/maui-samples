@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Map.WinUI": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
