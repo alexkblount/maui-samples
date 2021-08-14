@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31220.234
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Map", "Map\Map.csproj", "{8A000009-14BC-4363-B073-7EBE1897FEE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Map.WinUI", "Map.WinUI\Map.WinUI.csproj", "{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +17,6 @@ Global
 		{8A000009-14BC-4363-B073-7EBE1897FEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A000009-14BC-4363-B073-7EBE1897FEE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A000009-14BC-4363-B073-7EBE1897FEE0}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0DD2D2B-0C98-4073-A904-C276D54AAEE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
