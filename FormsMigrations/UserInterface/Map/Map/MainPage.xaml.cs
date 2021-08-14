@@ -1,20 +1,27 @@
 ﻿using System;
+using System.Windows.Input;
+using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Layouts;
+using Microsoft.Maui.Graphics;
 
 namespace Map
 {
 	public partial class MainPage : ContentPage
 	{
-		public MainPage()
-		{
-			InitializeComponent();
-		}
+		public ICommand NavigateCommand { get; set; }
 
-		int count = 0;
-		private void OnCounterClicked(object sender, EventArgs e)
-		{
-			count++;
-			CounterLabel.Text = $"Current count: {count}";
-		}
+        public MainPage()
+        {
+            InitializeComponent();
+
+            NavigateCommand = new Command<Type>(async (Type pageType) =>
+            {
+                Page page = (Page)Activator.CreateInstance(pageType);
+                await Navigation.PushAsync(page);
+            });
+
+            BindingContext = this;
+        }
 	}
 }

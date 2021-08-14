@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
 	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
-		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="INSERT-YOUR-KEY_HERE" />
-		<meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-		<!-- Necessary for apps that target Android 9.0 or higher -->
-		<uses-library android:name="org.apache.http.legacy" android:required="false" />
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCSHeOijRldxHas3TjImRgaYyNGCibXhuE" />
+		<!-- <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" /> -->
+		<!-- <uses-library android:name="org.apache.http.legacy" android:required="false" /> -->
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />

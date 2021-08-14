@@ -1,46 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Map"
+             mc:Ignorable="d"
              x:Class="Map.MainPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
-
-    <ScrollView Padding="{OnPlatform iOS='30,60,30,30', Default='30'}">
-        <StackLayout>
-            <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto,*">
-            
-                <Label Text="Hello, World!"
-                    Grid.Row="0"
-                    SemanticProperties.HeadingLevel="Level1"
-                    FontSize="32"
-                    HorizontalOptions="CenterAndExpand" />
-
-                <Label Text="Welcome to .NET Multi-platform App UI"
-                    Grid.Row="1"
-                    SemanticProperties.Hint="Counts the number of times you click" 
-                    FontSize="16"
-                    HorizontalOptions="CenterAndExpand" />
-
-                <Label Text="Current count: 0"
-                    Grid.Row="2"
-                    SemanticProperties.Hint="Counts the number of times you click"
-                    FontSize="18"
-                    FontAttributes="Bold"
-                    x:Name="CounterLabel"
-                    HorizontalOptions="Center" />
-
-                <Button Text="Click me"
-                    Grid.Row="3"
-                    SemanticProperties.Hint="Counts the number of times you click"
-                    Clicked="OnCounterClicked"
-                    HorizontalOptions="Center" />
-
-                <Image Grid.Row="4"
-                    Source="dotnet_bot.png"
-                    SemanticProperties.Description="Cute dotnet bot waving hi to you!"
-                    WidthRequest="300"
-                    HeightRequest="372"
-                    HorizontalOptions="Center" />
-
-            </Grid>
-        </StackLayout>
-    </ScrollView>
+             Title="Maps Table of Contents"
+             Padding="10">
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                <TextCell Text="Map types"
+                          Detail="Display a map with zooming and different map types."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:MapTypesPage}" />
+                <!-- <TextCell Text="Map region"
+                          Detail="Display a map at a specific location."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:MapRegionPage}" />
+                <TextCell Text="Map"
+                          Detail="Display a map with other properties set."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:MapPropertiesPage}" />
+                <TextCell Text="Pins"
+                          Detail="Add a pin to a map."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PinPage}" />
+                <TextCell Text="Pins with data binding"
+                          Detail="Adds a pin collection to a map."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PinItemsSourcePage}" />
+                <TextCell Text="Polygon and polyline"
+                          Detail="Add polygons and polylines to a map."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:PolygonsPage}" />
+                <TextCell Text="Highlight a circular area"
+                          Detail="Add a circle to a map."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:CirclePage}" />
+                <TextCell Text="Geocoder demo"
+                          Detail="Geocode and reverse geocode an address."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:GeocoderPage}" />                
+                <TextCell Text="Native map app"
+                          Detail="Launch the platform's native map app."
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:MapAppPage}" /> -->
+            </TableSection>
+        </TableRoot>
+    </TableView>
 </ContentPage>
