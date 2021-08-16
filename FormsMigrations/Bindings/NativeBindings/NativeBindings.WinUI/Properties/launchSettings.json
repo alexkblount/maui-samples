@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "NativeBindings.WinUI": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
