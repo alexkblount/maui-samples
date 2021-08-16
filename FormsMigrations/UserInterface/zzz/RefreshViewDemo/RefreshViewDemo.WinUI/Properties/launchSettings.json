@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "RefreshViewDemo.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
