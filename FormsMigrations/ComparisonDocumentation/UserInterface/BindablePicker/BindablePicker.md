@@ -15,7 +15,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/menu.png" width="400"/> | <img src="Maui/iOS/menu.png" width="400"/>
 
 
 ## Screen 2
@@ -30,7 +30,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/picker.png" width="400"/> | <img src="Maui/iOS/picker.png" width="400"/>
 
 ## Screen 3
 
@@ -44,7 +44,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/selected.png" width="400"/> | <img src="Maui/iOS/selected.png" width="400"/>
 
 
 

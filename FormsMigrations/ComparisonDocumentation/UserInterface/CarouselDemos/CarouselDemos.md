@@ -17,7 +17,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/home.png" width="400"/> | <img src="Maui/iOS/home.png" width="400"/>
 
 
 ## Screen 2
@@ -27,12 +27,13 @@ TBD | TBD
 Forms |  MAUI
 :----------:|:---------:
 <img src="Forms/Android/horizontal-text.png" width="400"/> | <img src="Maui/Android/horizontal-text.png" width="400"/>
+-- | Page takes around 30s to load
 
 ### iOS
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-text.png" width="400"/> | <img src="Maui/iOS/horizontal-text.png" width="400"/>
 
 ## Screen 3
 
@@ -41,12 +42,13 @@ TBD | TBD
 Forms |  MAUI
 :----------:|:---------:
 <img src="Forms/Android/vertical-text.png" width="400"/> | <img src="Maui/Android/vertical-text.png" width="400"/>
+-- | Page takes around 30s to load
 
 ### iOS
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/vertical-text.png" width="400"/> | <img src="Maui/iOS/vertical-text.png" width="400"/>
 
 
 ## Screen 4
@@ -55,13 +57,13 @@ TBD | TBD
 
 Forms |  MAUI
 :----------:|:---------:
-<img src="Forms/Android/horizontal-datatemplate.png" width="400"/> | Takes a long time to load and hangs
+<img src="Forms/Android/horizontal-datatemplate.png" width="400"/> | Hangs on trying to load the page. Extremly high CPU usage (Emulator)
 
 ### iOS
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-datatemplate.png" width="400"/> | <img src="Maui/iOS/horizontal-datatemplate.png" width="400"/>
 
 ## Screen 5
 
@@ -69,10 +71,10 @@ TBD | TBD
 
 Forms |  MAUI
 :----------:|:---------:
-<img src="Forms/Android/horizontal-peek.png" width="400"/> | Takes a long time to load and hangs
+<img src="Forms/Android/horizontal-peek.png" width="400"/> | Hangs on trying to load the page. Extremly high CPU usage (Emulator)
 
 ### iOS
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/horizontal-peek.png" width="400"/> | <img src="Maui/iOS/horizontal-peek.png" width="400"/>

@@ -17,7 +17,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/home.png" width="400"/> | <img src="Maui/iOS/home.png" width="400"/>
 
 
 
@@ -33,7 +33,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/basic-button.png" width="400"/> | <img src="Maui/iOS/basic-button.png" width="400"/>
 
 ## Screen 3
 
@@ -47,7 +47,7 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/toggle-button.png" width="400"/> | <img src="Maui/iOS/toggle-button.png" width="400"/>
 
 ## Screen 4
 
@@ -61,4 +61,4 @@ Forms |  MAUI
 
 Forms |  MAUI
 :----------:|:---------:
-TBD | TBD
+<img src="Forms/iOS/image-button.png" width="400"/> | <img src="Maui/iOS/image-button.png" width="400"/>

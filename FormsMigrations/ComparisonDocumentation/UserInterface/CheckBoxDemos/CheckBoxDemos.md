@@ -33,21 +33,6 @@ Forms |  MAUI
 :----------:|:---------:
 TBD | TBD
 
-
-## Screen 3
-
-### Android
-
-Forms |  MAUI
-:----------:|:---------:
-<img src="Forms/Android/binding.png" width="400"/> | <img src="Maui/Android/binding.png" width="400"/>
-
-### iOS
-
-Forms |  MAUI
-:----------:|:---------:
-TBD | TBD
-
 ## Screen 3
 
 ### Android
