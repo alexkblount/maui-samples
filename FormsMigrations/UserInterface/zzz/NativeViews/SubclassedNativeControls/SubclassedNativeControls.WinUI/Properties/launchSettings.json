@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "SubclassedNativeControls.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}

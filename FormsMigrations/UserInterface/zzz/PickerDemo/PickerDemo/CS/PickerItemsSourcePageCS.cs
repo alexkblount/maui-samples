@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
 
 namespace PickerDemo
 {
@@ -20,7 +21,7 @@ namespace PickerDemo
 			monkeyList.Add("Howler Monkey");
 			monkeyList.Add("Japanese Macaque");
 
-			var picker = new Picker { Title = "Select a monkey", TitleColor = Color.Red };
+			var picker = new Picker { Title = "Select a monkey", TitleColor = Colors.Red };
 			picker.ItemsSource = monkeyList;
 
 			var monkeyNameLabel = new Label();

@@ -11,7 +11,7 @@ namespace PickerDemo
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new PickerDemoPage();
 		}
 	}
 }
