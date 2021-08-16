@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioButtonDemos", "RadioButtonDemos\RadioButtonDemos.csproj", "{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioButtonDemos.WinUI", "RadioButtonDemos.WinUI\RadioButtonDemos.WinUI.csproj", "{23B148DD-71F6-44FF-92CA-4C658D85F1B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4E8D57-1F29-4316-B8FA-C0D8F881D1B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B148DD-71F6-44FF-92CA-4C658D85F1B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
+	EndGlobalSection
+EndGlobal

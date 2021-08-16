@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NativeViewInsideContentView.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

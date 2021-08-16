@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PickerDemo.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

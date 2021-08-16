@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RadioButtonDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}

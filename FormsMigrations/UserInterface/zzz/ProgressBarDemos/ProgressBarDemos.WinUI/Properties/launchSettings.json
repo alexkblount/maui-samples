@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProgressBarDemos.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
