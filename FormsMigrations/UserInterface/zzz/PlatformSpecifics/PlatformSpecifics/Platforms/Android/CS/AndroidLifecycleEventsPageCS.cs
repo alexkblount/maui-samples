@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat;

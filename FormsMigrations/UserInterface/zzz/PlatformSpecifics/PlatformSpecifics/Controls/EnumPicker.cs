@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
-using Xamarin.Forms;
+using Microsoft.Maui;
+using Microsoft.Maui.Controls;
 
 namespace PlatformSpecifics
 {
