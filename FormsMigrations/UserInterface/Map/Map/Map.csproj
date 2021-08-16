@@ -38,7 +38,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-    	<PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.1874" />
+		<!-- TODO: We need a new Maui version of the Maps package -->
+    	<!-- <PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.1874" /> -->
     </ItemGroup>
 
 	<PropertyGroup>

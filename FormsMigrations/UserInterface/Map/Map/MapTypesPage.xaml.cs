@@ -1,12 +1,10 @@
 ﻿using System;
+using System.Windows.Input;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Layouts;
 using Microsoft.Maui.Graphics;
-using System.Windows.Input;
-
-// Comes for the maps package
-using Xamarin.Forms.Maps;
+using Microsoft.Maui.Controls.Maps;
 
 namespace Map
 {
