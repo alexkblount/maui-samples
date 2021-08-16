@@ -11,7 +11,7 @@ namespace NativeSwitch
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NativeSwitchPage();
 		}
 	}
 }
