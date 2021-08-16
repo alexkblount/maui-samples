@@ -11,7 +11,7 @@ namespace SubclassedNativeControls
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new SubclassedNativeControlsPage();
 		}
 	}
 }

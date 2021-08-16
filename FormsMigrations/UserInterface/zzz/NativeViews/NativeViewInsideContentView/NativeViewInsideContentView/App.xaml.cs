@@ -11,7 +11,7 @@ namespace NativeViewInsideContentView
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new NativeViewInsideContentViewPage();
 		}
 	}
 }
