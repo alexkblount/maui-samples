@@ -25,7 +25,7 @@ Forms | MAUI | MAUI-P10
 
 Forms | MAUI | MAUI-P10
 :----------:|:---------:|:---------:
-<img src="Forms/Android/solid-color-brush.png" width="400"/> | <img src="Maui/Android/solid-color-brush.png" width="400"/> | <img src="Maui/Android-P10/solid-color-brush.png" width="400"/>
+<img src="Forms/Android/solid-color-brush.png" width="400"/> | <img src="Maui/Android/solid-color-brush.png" width="400"/> | <img src="Maui-P10/Android/solid-color-brush.png" width="400"/>
 
 ### iOS
 
@@ -67,7 +67,7 @@ Forms | MAUI | MAUI-P10
 
 Forms | MAUI | MAUI-P10
 :----------:|:---------:|:---------:
-<img src="Forms/Android/radial-gradient.png" width="400"/> | <img src="Maui/Android/radial-gradient.png" width="400"/> | <img src="Maui/Android-P10/radial-gradient.png" width="400"/>
+<img src="Forms/Android/radial-gradient.png" width="400"/> | <img src="Maui/Android/radial-gradient.png" width="400"/> | <img src="Maui-P10/Android/radial-gradient.png" width="400"/>
 
 ### iOS
 
@@ -81,7 +81,7 @@ Forms | MAUI | MAUI-P10
 
 Forms | MAUI | MAUI-P10
 :----------:|:---------:|:---------:
-<img src="Forms/Android/radial-explorer.png" width="400"/> | Crashes | <img src="Maui/Android-P10/radial-explorer.png" width="400"/> 
+<img src="Forms/Android/radial-explorer.png" width="400"/> | Crashes | <img src="Maui-P10/Android/radial-explorer.png" width="400"/> 
 
 ### iOS
 
@@ -95,7 +95,7 @@ Forms | MAUI | MAUI-P10
 
 Forms | MAUI | MAUI-P10
 :----------:|:---------:|:---------:
-<img src="Forms/Android/css-demo.png" width="400"/> | <img src="Maui/Android/css-demo.png" width="400"/> | <img src="Maui/Android-P10/css-demo.png" width="400"/>
+<img src="Forms/Android/css-demo.png" width="400"/> | <img src="Maui/Android/css-demo.png" width="400"/> | <img src="Maui-P10/Android/css-demo.png" width="400"/>
  --| Layout Pops in after measure | --
 
 ### iOS
