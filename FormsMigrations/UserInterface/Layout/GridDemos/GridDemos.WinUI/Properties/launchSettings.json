@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "GridDemos.WinUI": {
-      "commandName": "MsixPackage",
-      "nativeDebugging": false
-    }
-  }
-}
