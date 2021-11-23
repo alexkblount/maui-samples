@@ -3,7 +3,7 @@ using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
 using Application = Microsoft.Maui.Controls.Application;
 
-namespace AnimationDemo
+namespace BrushDemos
 {
 	public partial class App : Application
 	{
@@ -11,7 +11,7 @@ namespace AnimationDemo
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new HomePage());
+			MainPage = new NavigationPage(new BrushesDemos.MainPage());
 		}
 	}
 }
