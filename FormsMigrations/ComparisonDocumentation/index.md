@@ -1,4 +1,4 @@
-# Xamarin Fomrs Samples Migrated to MAUI Comparison
+# Xamarin Forms Samples Migrated to MAUI Comparison
 
 
 ## User Interface
