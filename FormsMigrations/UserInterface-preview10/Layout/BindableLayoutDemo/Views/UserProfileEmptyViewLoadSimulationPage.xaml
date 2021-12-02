@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:localcontrols="clr-namespace:BindableLayoutDemo.Controls"
              xmlns:viewmodels="clr-namespace:BindableLayoutDemo.ViewModels"
-             xmlns:cmp="clr-namespace:Microsoft.Maui.Controls.Compatibility;assembly=Microsoft.Maui.Controls"
              x:Class="BindableLayoutDemo.Views.UserProfileEmptyViewLoadSimulationPage"
              Title="User profile">
     <ContentPage.BindingContext>
@@ -72,22 +71,22 @@
     </ContentPage.Resources>
     
     <StackLayout> 
-        <cmp:AbsoluteLayout BackgroundColor="#909090"
+        <AbsoluteLayout BackgroundColor="#909090"
                         HeightRequest="60">
             <Button Text="Cancel" 
                     Margin="10,10"
                     Style="{StaticResource nakedButton}" />
-            <Image cmp:AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.36, 0.7" 
-                   cmp:AbsoluteLayout.LayoutFlags="All" 
+            <Image AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.36, 0.7" 
+                   AbsoluteLayout.LayoutFlags="All" 
                    BackgroundColor="Transparent" 
                    HeightRequest="36" 
                    Source="microsoft_gray.png" />
             <Button Text="Logout" 
                     Margin="10,10" 
-                    cmp:AbsoluteLayout.LayoutBounds="1, 0, AutoSize, AutoSize" 
-                    cmp:AbsoluteLayout.LayoutFlags="PositionProportional" 
+                    AbsoluteLayout.LayoutBounds="1, 0, AutoSize, AutoSize" 
+                    AbsoluteLayout.LayoutFlags="PositionProportional" 
                     Style="{StaticResource nakedButton}" />
-        </cmp:AbsoluteLayout>
+        </AbsoluteLayout>
         
         <Label BackgroundColor="#D1D1D1" 
                HeightRequest="22"
