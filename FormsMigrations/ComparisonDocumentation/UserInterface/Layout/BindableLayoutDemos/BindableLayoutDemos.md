@@ -27,7 +27,7 @@ TBD | TBD
 Forms | MAUI | MAUI-P10
 :----------:|:---------:|:---------:
 <img src="Forms/Android/user-profile.png" width="400"/> | Crashes | <img src="Maui-P10/Android/user-profile.png" width="400"/> 
- | Crashes | Crashes when LayoutBounds contains AutoSize. This needs to be commented out: AbsoluteLayout.LayoutBounds="1, 0, AutoSize, AutoSize"
+- | Crashes | Crashes when LayoutBounds contains AutoSize. This needs to be commented out: AbsoluteLayout.LayoutBounds="1, 0, AutoSize, AutoSize"
 
 ### iOS
 
