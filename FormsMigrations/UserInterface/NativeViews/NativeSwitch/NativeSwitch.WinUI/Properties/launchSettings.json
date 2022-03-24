@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NativeSwitch.WinUI": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false
+    }
+  }
+}
